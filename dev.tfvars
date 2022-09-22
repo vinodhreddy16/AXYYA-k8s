@@ -1,0 +1,9 @@
+aws_account_id   = "xyz"
+region           = "ap-southeast-1"
+bucket_name      = "axyya-test"
+vpc_name         = "axyya-vpc"
+cidr-vpc         = "10.50.0.0/16"
+cidr-subnets     = ["10.50.1.0/24", "10.50.2.0/24"]
+subnet_ids       = ["pub-sub1", "pub-sub2"]
+aws_igw_var      = "axyya-igw"
+eks_cluster_name = "axyya-eks-cluster"
